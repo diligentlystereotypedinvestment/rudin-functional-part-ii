@@ -1,0 +1,52 @@
+\documentclass[a4paper]{article}
+
+\input{~/templates/math.tex}
+
+\title{Solutions to Part II of Rudin's Functional Analysis}
+\author{Vincent Tran}
+
+\begin{document}
+\maketitle
+
+\section{Chapter 6}
+
+\begin{exercise}
+	Suppose $f $ is a complex continuous function in $\R^n $, with compact support. Prove that $\psi P_j \to f $ uniformly on $\R^n $, for some $\psi \in \mathscr{D} $ and for some sequence $\{P_j\}   $ of polynomials.
+\end{exercise}
+
+\begin{exercise}
+	Show that the metrizable topology for $\mathscr{D}(\Omega) $ that was rejected in Section 6.2 is not complete for any $\Omega $.
+\end{exercise}
+
+\begin{execrise}
+	If $E $ is an arbitrary closed subset of $\R^n $, show that there is an $f \in C^\infty(\R^n) $ such that $f(x) = 0 $ for every $x \in E $ and $f(x) > 0 $ for every other $x\in \R^n $.
+\end{execrise}
+
+\begin{exercise}
+	Suppose $\Lambda \in \mathscr{D}'(\Omega) $ and $\Lambda \phi  \ge 0 $. Prove that $\Lambda $ is then a positive measure in $\Omega $ (which is finite on compact sets).
+\end{exercise}
+
+\begin{exercise}
+	Prove that the numbers $c_{\alpha \beta} $ in the Leibniz formula are
+	\[
+		c_{\alpha \beta} = \prod_{i=1}^n \frac{\alpha_i!}{\beta_i! (\alpha_i - \beta_i)!}
+	.\] 
+\end{exercise}
+
+\begin{exercise}
+	~
+	\begin{enumerate}
+		\item Suppose $c_m = \exp \{-(m!)!\} , m = 0,1,2,\ldots  $. Does the series
+			\[
+				\sum_{m=0}^{\infty} c-M(D^m \phi )(0)
+			\] 
+			converge for every $\phi \in C^\infty(\R) $.
+		\item Let $\Omega $ be open in $\R^n $, suppose $\Lambda_i \in \mathscr{D}'(\Omega) $, and suppose that all $\Omega_i $ have their supports in some fixed compact $K \subset \Omega $. Prove that the sequence $\{\Lambda_i\}   $ cannot converge in $\mathscr{D}'(\Omega) $ unless the orders of the $\Lambda_j $ are bounded.
+			\ifhint
+				Hint: Use the Banach-Steinhaus Theorem.
+			\fi
+		\item Can the assumption about the supports be dropped in (b)?
+	\end{enumerate}
+\end{exercise}
+
+\end{document}
